@@ -1,3 +1,17 @@
+## Benefits of a Single Page Application (SPA)
+
+SAPs allow the user to interact with the website without downloading entire new webpages from the server. Instead, SAPs rewrites the current webpage based on user interaction. As a result, the app will feel faster and more responsive.
+
+React downloads a Virtual DOM instance from the server to be compared with the browser DOM and render data changes accordingly.
+
+## Interesting fact about SPA
+
+Unlike, traditional web appllications, a SPA can’t have regular anchor tag elements because an anchor tag will load another html file from a server and trigger a refresh the page. And remember that this is a "Single Page Application" so we can't really load another html when there's only one, our "index.html"
+
+## react-router-dom
+
+In this activity, I installed react-router-dom to create an implementation of anchor tags and links, which in reality they only give an illusion of loading different pages to the end user, when in fact they simply load different components into a single element of the real DOM into which the virtual DOM tree gets mounted and updated beased on user interaction.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +82,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
